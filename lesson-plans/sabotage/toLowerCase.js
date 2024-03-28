@@ -9,7 +9,7 @@ var toLowerCase = function(s) {
 
 
 describe('A string is a string replacing every letter to lower case.', () => {
-  it('should return an empty string when given an empty sentence', () => {
+  it('should return an empty string when given an empty string', () => {
   let returned = toLowerCase('');
   expect(returned).toBe('');
   });
